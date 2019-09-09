@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# WITH NVIDIA/CUDA INSTALLED
+# docker run --rm -u $(id -u):$(id -g) -v $(pwd):/home -it --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 griffith/transformer bash
+
+# BASIC ENV
+docker run --rm -u $(id -u):$(id -g) -v $(pwd):/home -it griffith/transformer bash

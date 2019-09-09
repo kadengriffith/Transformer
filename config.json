@@ -1,11 +1,1 @@
-{
-  "seed": 420365,
-  "checkpoint": false,
-  "layers": 1,
-  "attn-heads": 16,
-  "model-depth": 32,
-  "dff": 64,
-  "dropout": 0.1,
-  "epochs": 300,
-  "batch-size": 1
-}
+{"seed": 420365, "checkpoint": "t_1_16_32_64_1568052988", "layers": 1, "attn-heads": 16, "model-depth": 32, "dff": 64, "dropout": 0.1, "epochs": 300, "batch-size": 1}
